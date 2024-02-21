@@ -8,7 +8,7 @@ def load_data(file_path):
     return pd.read_excel(file_path, engine='openpyxl')
 
 # File path to your Excel file
-file_path = "C:/Users/AMOL/Desktop/project/Dataa.xlsx"  # Replace this with the actual path to your Excel file
+file_path = "Dataa.xlsx"  # Replace this with the actual path to your Excel file
 
 # Load data
 df = load_data(file_path)
